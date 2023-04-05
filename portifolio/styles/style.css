@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(251, 255, 254);
+}
+
+.titulo_destaque {
+    color: aquamarine;
+}
+
+.apresentacao {
+    padding: 6% 15%;
+    display: flex; /*Flex Box deixar tudo em linha */
+    align-items: center;
+    justify-content:space-between ; /*Separar as coisas */
+}
+
+.apresentacao__conteudo {
+    width:615px ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+     
+}
+
+
+
+
+.apresentacao__conteudo__titulo{
+    font-size:36px ;
+    font-family:'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family:'Montserrat', sans-serif;
+    
+}
+.img_central{
+    border:3px solid aquamarine;
+    border-radius: 16px;
+}
+
+.apresentacao__botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__botoes_subtitulos{
+    font-family:'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.apresentacao__botoes__botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width:378px;
+    text-align: center;
+    border-radius:8px ;
+    font-size: 24px;
+    padding: 21.5px  0;
+    color: rgb(255, 255, 255);
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 2px solid aquamarine;
+    text-decoration: none;
+}
+
+
+.apresentacao__botoes__botao:hover{
+    background-color: rgb(60, 71, 71);
+}
+
+
+/*__________________BOTOES EM CIMA DA FOTO___________________________________ */
+
+.conteudo__extra{
+    display: flex;
+    gap: 100px; /*altura entre imagem e home */
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__extra{
+    display: flex;
+    gap: 400px;
+}
+
+.conteudo__extra__botao{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__menu__link{
+
+    border: 2px solid aquamarine;
+    color: aliceblue;
+    padding: 21.5px  0;
+    width:250px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:8px ;
+}
+
+.cabecalho__menu__link:hover{
+    background-color: rgb(60, 71, 71);
+}
+
+.cabecalho__menu{
+    display: flex;
+    column-gap: 10%;
+}
+/*____________________________________________________________________*/
+
+.rodape{
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    padding: 24px;
+    
+}
